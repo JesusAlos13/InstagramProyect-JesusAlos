@@ -1,0 +1,117 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 100px;
+    padding: 50px;
+    background-image: url('https://cdn.vox-cdn.com/uploads/chorus_image/image/73334809/2149593082.0.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+  }
+
+.targeta {
+    margin: auto;
+    border-radius: 13px;
+    background-color: whitesmoke;
+    width: 600px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.encabezado{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.cuerpo {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 1em;
+    
+    
+}
+
+.botones {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+}
+
+span.iconoPerfil {
+    height: 75%;
+    width: 0%
+    align-self: center;
+    font-size: 2.5em;
+    margin: 4px 4px 0px 8px;
+ 
+ }
+
+span.punto {
+    margin: 5px 20px 5px 20px;
+    align-self: center;
+    font-size: 1.5em;
+
+}
+
+span.texto {
+    height: 80%;
+    width: 85%;
+    align-self: flex-start;
+    font-size: 1em;
+    padding: 10px 15px 10px 15px;
+ }
+
+span.corazon {
+   color: red;
+   height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 2em;
+   margin: 10px 10px 10px 10px;
+
+}
+
+span.comentario {
+   color: green;
+   height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 2em;
+   margin: 10px 10px 10px 10px;
+
+}
+
+span.enviar {
+   color: blue;
+   height: 80%;
+   width: 80%;
+   align-self: center;
+   font-size: 2em;
+   margin: 10px 10px 10px 10px;
+
+}
+
+span.guardar {
+    color: black;
+    height: 80%;
+    width: 5%;
+    margin: 10px 20px 10px 20px;
+    align-self: center;
+    font-size: 2.5em;
+
+}
